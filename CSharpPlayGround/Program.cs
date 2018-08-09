@@ -16,10 +16,13 @@ namespace CSharpPlayGround
             //LCM lcm = new LCM();
             //var result = lcm.BeetweenTwoNumber(8, 5);
 
-            int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5 };
-            LeanerSearch l = new LeanerSearch();
-            var result = l.Search(arrs, 5);
+            //int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5 };
+            //LeanerSearch l = new LeanerSearch();
+            //var result = l.Search(arrs, 5);
 
+            //int[] arrs = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //BinarySearch bs = new BinarySearch();
+            //var result = bs.Search(arrs, 2);
 
             Console.WriteLine(result);
             Console.Read();
