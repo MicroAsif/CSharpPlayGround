@@ -1,0 +1,28 @@
+﻿
+using CSharpPlayGround.Algorithm.Math;
+using CSharpPlayGround.Algorithm.Search;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharpPlayGround
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //LCM lcm = new LCM();
+            //var result = lcm.BeetweenTwoNumber(8, 5);
+
+            int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5 };
+            LeanerSearch l = new LeanerSearch();
+            var result = l.Search(arrs, 5);
+
+
+            Console.WriteLine(result);
+            Console.Read();
+        }
+    }
+}
