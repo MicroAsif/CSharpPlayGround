@@ -45,6 +45,7 @@
     <Compile Include="Algorithm\Math\LCM.cs" />
     <Compile Include="Algorithm\Search\BinarySearch.cs" />
     <Compile Include="Algorithm\Search\LeanerSearch.cs" />
+    <Compile Include="Algorithm\Sort\Sorting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\Sets\" />
-    <Folder Include="Algorithm\Sort\" />
     <Folder Include="Algorithm\String\" />
     <Folder Include="DataStructure\" />
   </ItemGroup>

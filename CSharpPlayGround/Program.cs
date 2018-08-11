@@ -1,6 +1,7 @@
 ﻿
 using CSharpPlayGround.Algorithm.Math;
 using CSharpPlayGround.Algorithm.Search;
+using CSharpPlayGround.Algorithm.Sort;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace CSharpPlayGround
             //LCM lcm = new LCM();
             //var result = lcm.BeetweenTwoNumber(8, 5);
 
-            //int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5 };
+            int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5 };
             //LeanerSearch l = new LeanerSearch();
             //var result = l.Search(arrs, 5);
 
@@ -24,7 +25,14 @@ namespace CSharpPlayGround
             //BinarySearch bs = new BinarySearch();
             //var result = bs.Search(arrs, 2);
 
-            Console.WriteLine(result);
+
+            Sorting s = new Sorting();
+            s.SelectionSort(arrs);
+
+            for (int i = 0; i < arrs.Length; i++)
+            {
+                Console.WriteLine(arrs[i]);
+            }
             Console.Read();
         }
     }
