@@ -2,6 +2,7 @@
 using CSharpPlayGround.Algorithm.Math;
 using CSharpPlayGround.Algorithm.Search;
 using CSharpPlayGround.Algorithm.Sort;
+using CSharpPlayGround.Algorithm.Strings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,13 +27,22 @@ namespace CSharpPlayGround
             //var result = bs.Search(arrs, 2);
 
 
-            Sorting s = new Sorting();
-            s.SelectionSort(arrs);
+            //Sorting s = new Sorting();
+            //s.SelectionSort(arrs);
 
-            for (int i = 0; i < arrs.Length; i++)
-            {
-                Console.WriteLine(arrs[i]);
-            }
+            //for (int i = 0; i < arrs.Length; i++)
+            //{
+            //    Console.WriteLine(arrs[i]);
+            //}
+
+            //Palindrome palindrome = new Palindrome();
+            //Console.WriteLine(palindrome.Reverse("abba"));
+
+            char[] chars = { 'a', 's', 'i', 'f', 'u', 'r', 'r', 'a', 'h' };
+
+            FirstDuplicate firstDuplicate = new FirstDuplicate();
+            Console.WriteLine(firstDuplicate.Run(chars));
+
             Console.Read();
         }
     }
