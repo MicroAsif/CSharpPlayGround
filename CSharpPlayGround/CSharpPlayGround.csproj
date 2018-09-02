@@ -42,9 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\Math\Factorial.cs" />
+    <Compile Include="Algorithm\Math\Fibonacci.cs" />
     <Compile Include="Algorithm\Math\LCM.cs" />
     <Compile Include="Algorithm\Search\BinarySearch.cs" />
     <Compile Include="Algorithm\Search\LeanerSearch.cs" />
+    <Compile Include="Algorithm\Sets\CartesianProduct.cs" />
     <Compile Include="Algorithm\Sort\Sorting.cs" />
     <Compile Include="Algorithm\Strings\FirstDuplicate.cs" />
     <Compile Include="Algorithm\Strings\HammingDistance.cs" />
@@ -56,7 +59,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Algorithm\Sets\" />
     <Folder Include="DataStructure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

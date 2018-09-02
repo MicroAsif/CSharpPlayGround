@@ -38,10 +38,17 @@ namespace CSharpPlayGround
             //Palindrome palindrome = new Palindrome();
             //Console.WriteLine(palindrome.Reverse("abba"));
 
-            char[] chars = { 'a', 's', 'i', 'f', 'u', 'r', 'r', 'a', 'h' };
+            //char[] chars = { 'a', 's', 'i', 'f', 'u', 'r', 'r', 'a', 'h' };
 
-            FirstDuplicate firstDuplicate = new FirstDuplicate();
-            Console.WriteLine(firstDuplicate.Run(chars));
+            //FirstDuplicate firstDuplicate = new FirstDuplicate();
+            //Console.WriteLine(firstDuplicate.Run(chars));
+
+
+            Fibonacci f = new Fibonacci();
+            Console.WriteLine(f.Fib(40));
+
+
+
 
             Console.Read();
         }
