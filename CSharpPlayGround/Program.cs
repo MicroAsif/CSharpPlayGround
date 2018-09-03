@@ -1,6 +1,7 @@
 ﻿
 using CSharpPlayGround.Algorithm.Math;
 using CSharpPlayGround.Algorithm.Search;
+using CSharpPlayGround.Algorithm.Sets;
 using CSharpPlayGround.Algorithm.Sort;
 using CSharpPlayGround.Algorithm.Strings;
 using System;
@@ -45,10 +46,19 @@ namespace CSharpPlayGround
 
 
             Fibonacci f = new Fibonacci();
-            Console.WriteLine(f.Fib(40));
+            //Console.WriteLine(f.Fib(40));
 
+            int [] array1 = { 1, 2, 3 };
+            int[] array2 = { 10, 11, 12 };
 
-
+            CartesianProduct cp = new CartesianProduct();
+            int[,] arrays = cp.Test(array1, array2);
+            foreach (var item in arrays)
+            {
+                Console.WriteLine(item);
+            }
+              
+            
 
             Console.Read();
         }
