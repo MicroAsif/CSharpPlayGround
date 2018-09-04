@@ -45,20 +45,24 @@ namespace CSharpPlayGround
             //Console.WriteLine(firstDuplicate.Run(chars));
 
 
-            Fibonacci f = new Fibonacci();
-            //Console.WriteLine(f.Fib(40));
+            //Fibonacci f = new Fibonacci();
+            //Console.WriteLine(f.Fibo(40));
 
-            int [] array1 = { 1, 2, 3 };
-            int[] array2 = { 10, 11, 12 };
 
-            CartesianProduct cp = new CartesianProduct();
-            int[,] arrays = cp.Test(array1, array2);
-            foreach (var item in arrays)
-            {
-                Console.WriteLine(item);
-            }
-              
-            
+
+            //int [] array1 = { 1, 2, 3 };
+            //int[] array2 = { 10, 11, 12 };
+
+            //CartesianProduct cp = new CartesianProduct();
+            //int[,] arrays = cp.Test(array1, array2);
+            //foreach (var item in arrays)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            Console.WriteLine(Pow.Normal(2, 0));
+
 
             Console.Read();
         }
