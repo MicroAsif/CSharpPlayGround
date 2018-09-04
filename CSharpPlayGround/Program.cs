@@ -61,7 +61,7 @@ namespace CSharpPlayGround
             //}
 
 
-            Console.WriteLine(Pow.Normal(2, 0));
+            Console.WriteLine(Pow.Recursion(2, 8));
 
 
             Console.Read();

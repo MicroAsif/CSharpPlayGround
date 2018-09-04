@@ -8,7 +8,7 @@ namespace CSharpPlayGround.Algorithm.Math
 {
     public static class Pow
     {
-        public static int Normal(int a, int n)
+        public static int Test(int a, int n)
         {
             if (n == 0) return 1;
             if (n == 1) return a;
@@ -19,6 +19,14 @@ namespace CSharpPlayGround.Algorithm.Math
                 result = result * a;
             }
             return result;
+        }
+
+        public static int Recursion(int a, int n)
+        {
+            if (n == 0) return 1;
+            if (n == 1) return a;
+
+            return a * Recursion(a, n - 1);
         }
     }
 }
