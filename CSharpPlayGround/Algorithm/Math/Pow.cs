@@ -26,6 +26,11 @@ namespace CSharpPlayGround.Algorithm.Math
             if (n == 0) return 1;
             if (n == 1) return a;
 
+            if (n % 2 == 0)
+            {
+                int p = Recursion(a, n / 2);
+                return p * p;
+            }
             return a * Recursion(a, n - 1);
         }
     }
