@@ -10,15 +10,22 @@ namespace CSharpPlayGround.Algorithm.Strings
     {
         public bool Reverse(string message)
         {
-            string newMsg = message;
-            newMsg.Reverse();
+            int min = 0;
+            int max = message.Length - 1;
+            while (true)
+            {
+                if (min > max)
+                {
+                    return true; 
+                }
+                char a = message[min];
+                char b = message[max];
+                if (char.ToLower(a) != char.ToLower(b))
+                    return false;
 
-            char[] chars = newMsg.ToCharArray();
-            String s = new String(chars);
-
-            if (s.Equals(newMsg))
-                return true;
-            return false;
+                min++;
+                max--;
+            }
 
         }
     }

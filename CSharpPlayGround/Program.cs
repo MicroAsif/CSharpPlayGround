@@ -36,8 +36,8 @@ namespace CSharpPlayGround
             //    Console.WriteLine(arrs[i]);
             //}
 
-            //Palindrome palindrome = new Palindrome();
-            //Console.WriteLine(palindrome.Reverse("abba"));
+            Palindrome palindrome = new Palindrome();
+            Console.WriteLine(palindrome.Reverse("repaper"));
 
             //char[] chars = { 'a', 's', 'i', 'f', 'u', 'r', 'r', 'a', 'h' };
 

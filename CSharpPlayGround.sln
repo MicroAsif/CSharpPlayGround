@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlayGround", "CSharpPlayGround\CSharpPlayGround.csproj", "{335B4AD2-0500-465E-87B2-557C55C17F19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPlayGroud.OOP", "CSharpPlayGroud.OOP\CSharpPlayGroud.OOP.csproj", "{A6FE509A-EACA-4723-85B2-3981FBD28D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{335B4AD2-0500-465E-87B2-557C55C17F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{335B4AD2-0500-465E-87B2-557C55C17F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{335B4AD2-0500-465E-87B2-557C55C17F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FE509A-EACA-4723-85B2-3981FBD28D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FE509A-EACA-4723-85B2-3981FBD28D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FE509A-EACA-4723-85B2-3981FBD28D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FE509A-EACA-4723-85B2-3981FBD28D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
