@@ -24,10 +24,22 @@ namespace CSharpPlayground.InterviewQuestions
             //Can't access const with an instance
             //Console.WriteLine(z.C1 + " " + z.C2);
 
+
+       
+            // Params 
+
             Display(1,2,3);
             int[] a = { 1, 2, 3, 4, 5 };
             Display(a);
 
+
+            // another example 
+
+            B b1 = new B();
+            b1.i = 1;
+            b1.j = 2;
+
+            b1.Display();
 
             Console.Read();
         }

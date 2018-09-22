@@ -63,6 +63,8 @@ namespace CSharpPlayGround
 
             Console.WriteLine(Pow.Recursion(2, 8));
 
+            Console.WriteLine(AvarageOfAscii.Avarage("GeeksforGeeks"));
+
 
             Console.Read();
         }
