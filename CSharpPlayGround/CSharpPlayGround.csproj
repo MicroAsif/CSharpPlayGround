@@ -46,6 +46,7 @@
     <Compile Include="Algorithm\Math\Factorial.cs" />
     <Compile Include="Algorithm\Math\Fibonacci.cs" />
     <Compile Include="Algorithm\Math\LCM.cs" />
+    <Compile Include="Algorithm\Math\Number.cs" />
     <Compile Include="Algorithm\Math\Pow.cs" />
     <Compile Include="Algorithm\Search\BinarySearch.cs" />
     <Compile Include="Algorithm\Search\LeanerSearch.cs" />

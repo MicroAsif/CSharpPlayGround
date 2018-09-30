@@ -66,6 +66,12 @@ namespace CSharpPlayGround
             Console.WriteLine(AvarageOfAscii.Avarage("GeeksforGeeks"));
 
 
+            var data = Number.DecimalToBinary(11);
+            foreach (var item in data)
+            {
+                Console.WriteLine(item);
+            }
+
             Console.Read();
         }
     }
