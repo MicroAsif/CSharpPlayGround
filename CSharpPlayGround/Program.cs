@@ -1,4 +1,5 @@
 ﻿
+using CSharpPlayGround.Algorithm;
 using CSharpPlayGround.Algorithm.Math;
 using CSharpPlayGround.Algorithm.Search;
 using CSharpPlayGround.Algorithm.Sets;
@@ -19,7 +20,7 @@ namespace CSharpPlayGround
             //LCM lcm = new LCM();
             //var result = lcm.BeetweenTwoNumber(8, 5);
 
-            int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5 };
+            int[] arrs = { 10, 1, 30, 52, 30, 40, 4, 5, 30 };
             //LeanerSearch l = new LeanerSearch();
             //var result = l.Search(arrs, 5);
 
@@ -71,6 +72,11 @@ namespace CSharpPlayGround
             {
                 Console.WriteLine(item);
             }
+
+            var reccounr = ArrayProblem.MaximumFrequency(arrs);
+            Console.WriteLine($"Element : {reccounr.element} and Times : {reccounr.count}");
+
+            Console.ReadLine();
 
             Console.Read();
         }
