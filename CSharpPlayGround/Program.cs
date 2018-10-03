@@ -76,6 +76,15 @@ namespace CSharpPlayGround
             var reccounr = ArrayProblem.MaximumFrequency(arrs);
             Console.WriteLine($"Element : {reccounr.element} and Times : {reccounr.count}");
 
+
+            var duplicate = DuplicateChar.Duplication("Programming");
+            foreach (var item in duplicate)
+            {
+                if (item.Value > 1)
+                    Console.WriteLine($"Char : {item.Key} , count : {item.Value}");
+
+            }
+
             Console.ReadLine();
 
             Console.Read();

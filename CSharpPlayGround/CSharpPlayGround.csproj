@@ -34,6 +34,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\ArrayProblem.cs" />
     <Compile Include="Algorithm\Math\AvarageOfAscii.cs" />
     <Compile Include="Algorithm\Math\Factorial.cs" />
     <Compile Include="Algorithm\Math\Fibonacci.cs" />
@@ -52,6 +56,7 @@
     <Compile Include="Algorithm\Search\LeanerSearch.cs" />
     <Compile Include="Algorithm\Sets\CartesianProduct.cs" />
     <Compile Include="Algorithm\Sort\Sorting.cs" />
+    <Compile Include="Algorithm\Strings\DuplicateChar.cs" />
     <Compile Include="Algorithm\Strings\FirstDuplicate.cs" />
     <Compile Include="Algorithm\Strings\HammingDistance.cs" />
     <Compile Include="Algorithm\Strings\Palindrome.cs" />
@@ -60,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStructure\" />
