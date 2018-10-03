@@ -28,5 +28,17 @@ namespace CSharpPlayGround.Algorithm
             }
             return (element, count);
         }
+
+        public static  int GetSingleMissingNo(int[] a)
+        {
+            int total = (a.Length + 1) * (a.Length + 2) / 2;
+
+            for (int i = 0; i < a.Length; i++)
+                total -= a[i];
+
+            return total;
+        }
+
+      
     }
 }
