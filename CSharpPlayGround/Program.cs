@@ -84,10 +84,15 @@ namespace CSharpPlayGround
                     Console.WriteLine($"Char : {item.Key} , count : {item.Value}");
 
             }
-            int[] missing = { 1, 7, 9, 8, 4, 5, 3,2 };
+            int[] missing = { 1, 7, 9, 4, 5,6, 3,2 };
             
             Console.WriteLine($"Missing Number : {ArrayProblem.GetSingleMissingNo(missing)}");
 
+            var missingNumbers = ArrayProblem.MissingNumbers(missing, 10);
+            foreach (var item in missingNumbers)
+            {
+                Console.WriteLine($"missing Numbers : {item}");
+            }
            
 
             Console.ReadLine();

@@ -39,6 +39,13 @@ namespace CSharpPlayGround.Algorithm
             return total;
         }
 
+        public static List<int> MissingNumbers (int[] a, int count)
+        {
+            var sequence = new List<int>(a);
+            return Enumerable.Range(1, count).Except(a).ToList();
+
+        }
+
       
     }
 }
