@@ -57,6 +57,7 @@
     <Compile Include="Algorithm\Sets\CartesianProduct.cs" />
     <Compile Include="Algorithm\Sort\BubbleSort.cs" />
     <Compile Include="Algorithm\Sort\InsertionSort.cs" />
+    <Compile Include="Algorithm\Sort\MergeSort.cs" />
     <Compile Include="Algorithm\Sort\SelectionSort.cs" />
     <Compile Include="Algorithm\Strings\DuplicateChar.cs" />
     <Compile Include="Algorithm\Strings\FirstDuplicate.cs" />
