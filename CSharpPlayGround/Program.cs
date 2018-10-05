@@ -29,16 +29,18 @@ namespace CSharpPlayGround
             //var result = bs.Search(arrs, 2);
 
 
-            //Sorting s = new Sorting();
-            //s.SelectionSort(arrs);
+            //SelectionSort.Sort(arrs);
+            //BubbleSort.Sort(arrs);
+            //InsertionSort.Sort(arrs);
 
-            //for (int i = 0; i < arrs.Length; i++)
-            //{
-            //    Console.WriteLine(arrs[i]);
-            //}
 
-            Palindrome palindrome = new Palindrome();
-            Console.WriteLine(palindrome.Reverse("repaper"));
+            for (int i = 0; i < arrs.Length; i++)
+            {
+                Console.WriteLine(arrs[i]);
+            }
+
+            //Palindrome palindrome = new Palindrome();
+            //Console.WriteLine(palindrome.Reverse("repaper"));
 
             //char[] chars = { 'a', 's', 'i', 'f', 'u', 'r', 'r', 'a', 'h' };
 
@@ -62,42 +64,47 @@ namespace CSharpPlayGround
             //}
 
 
-            Console.WriteLine(Pow.Recursion(2, 8));
+            //Console.WriteLine(Pow.Recursion(2, 8));
 
-            Console.WriteLine(AvarageOfAscii.Avarage("GeeksforGeeks"));
-
-
-            var data = Number.DecimalToBinary(11);
-            foreach (var item in data)
-            {
-                Console.WriteLine(item);
-            }
-
-            var reccounr = ArrayProblem.MaximumFrequency(arrs);
-            Console.WriteLine($"Element : {reccounr.element} and Times : {reccounr.count}");
+            //Console.WriteLine(AvarageOfAscii.Avarage("GeeksforGeeks"));
 
 
-            var duplicate = DuplicateChar.Duplication("Programming");
-            foreach (var item in duplicate)
-            {
-                if (item.Value > 1)
-                    Console.WriteLine($"Char : {item.Key} , count : {item.Value}");
+            //var data = Number.DecimalToBinary(11);
+            //foreach (var item in data)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
-            }
-            int[] missing = { 1, 7, 9, 4, 5,6, 3,2 };
-            
-            Console.WriteLine($"Missing Number : {ArrayProblem.GetSingleMissingNo(missing)}");
+            //var reccounr = ArrayProblem.MaximumFrequency(arrs);
+            //Console.WriteLine($"Element : {reccounr.element} and Times : {reccounr.count}");
 
-            var missingNumbers = ArrayProblem.MissingNumbers(missing, 10);
-            foreach (var item in missingNumbers)
-            {
-                Console.WriteLine($"missing Numbers : {item}");
-            }
-           
 
-            Console.ReadLine();
+            //var duplicate = DuplicateChar.Duplication("Programming");
+            //foreach (var item in duplicate)
+            //{
+            //    if (item.Value > 1)
+            //        Console.WriteLine($"Char : {item.Key} , count : {item.Value}");
+
+            //}
+            //int[] missing = { 1, 7, 9, 4, 5,6, 3,2 };
+
+            //Console.WriteLine($"Missing Number : {ArrayProblem.GetSingleMissingNo(missing)}");
+
+            //var missingNumbers = ArrayProblem.MissingNumbers(missing, 10);
+            //foreach (var item in missingNumbers)
+            //{
+            //    Console.WriteLine($"missing Numbers : {item}");
+            //}
+
+
+
 
             Console.Read();
+
+
+
         }
+
+        
     }
 }

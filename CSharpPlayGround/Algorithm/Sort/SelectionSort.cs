@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpPlayGround.Algorithm.Sort
 {
-    class Sorting
+    class SelectionSort
     {
-        public void SelectionSort(int[] array)
+        public static void Sort(int[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {

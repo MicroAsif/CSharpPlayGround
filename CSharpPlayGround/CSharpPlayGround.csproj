@@ -55,7 +55,9 @@
     <Compile Include="Algorithm\Search\BinarySearch.cs" />
     <Compile Include="Algorithm\Search\LeanerSearch.cs" />
     <Compile Include="Algorithm\Sets\CartesianProduct.cs" />
-    <Compile Include="Algorithm\Sort\Sorting.cs" />
+    <Compile Include="Algorithm\Sort\BubbleSort.cs" />
+    <Compile Include="Algorithm\Sort\InsertionSort.cs" />
+    <Compile Include="Algorithm\Sort\SelectionSort.cs" />
     <Compile Include="Algorithm\Strings\DuplicateChar.cs" />
     <Compile Include="Algorithm\Strings\FirstDuplicate.cs" />
     <Compile Include="Algorithm\Strings\HammingDistance.cs" />
