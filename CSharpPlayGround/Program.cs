@@ -96,8 +96,15 @@ namespace CSharpPlayGround
 
 
 
-            var topTwo = ArrayProblem.FindTwoTop(arrs);
-            Console.WriteLine($"{topTwo.first} and {topTwo.second}");
+            //var topTwo = ArrayProblem.FindTwoTop(arrs);
+            //Console.WriteLine($"{topTwo.first} and {topTwo.second}");
+
+
+            var data = ArrayProblem.PushAllZeroToTheEnd(1, 0, 2, 3, 0, 4, 0);
+            for (int i = 0; i < data.Length; i++)
+            {
+                Console.WriteLine(data[i]);
+            }
             Console.Read();
 
 

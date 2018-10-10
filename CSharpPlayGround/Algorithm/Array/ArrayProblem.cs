@@ -64,6 +64,22 @@ namespace CSharpPlayGround.Algorithm
             }
             return (top1, top2);
         }
+
+
+        //1, 2, 3, 4 , 5, 0 , 6, 0
+        public static int[] PushAllZeroToTheEnd(params int[] arr)
+        {
+            int count = 0;
+            int[] newArray = new int[arr.Length];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] != 0)
+                {
+                    newArray[count++] = arr[i];
+                }
+            }
+            return newArray;
+        }
       
     }
 }
