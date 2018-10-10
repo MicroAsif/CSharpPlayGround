@@ -32,10 +32,10 @@ namespace CSharpPlayGround
             //SelectionSort.Sort(arrs);
             //BubbleSort.Sort(arrs);
             //InsertionSort.Sort(arrs);
-            MergeSort.Sort(arrs);
+            //MergeSort.Sort(arrs);
 
 
-          
+
 
             //Palindrome palindrome = new Palindrome();
             //Console.WriteLine(palindrome.Reverse("repaper"));
@@ -96,7 +96,8 @@ namespace CSharpPlayGround
 
 
 
-
+            var topTwo = ArrayProblem.FindTwoTop(arrs);
+            Console.WriteLine($"{topTwo.first} and {topTwo.second}");
             Console.Read();
 
 

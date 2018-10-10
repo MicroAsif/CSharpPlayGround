@@ -46,6 +46,24 @@ namespace CSharpPlayGround.Algorithm
 
         }
 
+
+        public static (int first, int second) FindTwoTop(int[] arr)
+        {
+            int top1 = 0, top2 = 1;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (top1 < arr[i])
+                {
+                    top2 = top1;
+                    top1 = arr[i];
+                }
+                else if (top2 < arr[i])
+                {
+                    top2 = arr[i];
+                }
+            }
+            return (top1, top2);
+        }
       
     }
 }

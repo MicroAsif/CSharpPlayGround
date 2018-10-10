@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algorithm\ArrayProblem.cs" />
+    <Compile Include="Algorithm\Array\ArrayProblem.cs" />
     <Compile Include="Algorithm\Math\AvarageOfAscii.cs" />
     <Compile Include="Algorithm\Math\Factorial.cs" />
     <Compile Include="Algorithm\Math\Fibonacci.cs" />
