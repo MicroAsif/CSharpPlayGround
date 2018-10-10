@@ -8,7 +8,10 @@ namespace CSharpPlayGround.Algorithm
 {
     class ArrayProblem
     {
-
+        // programming
+        // r = 2 
+        // g = 2 
+        // m = 2
         public static (int element, int count) MaximumFrequency(int[] array){
             int count = 0, element = 0;
             for (int i = 0; i < array.Length; i++)
@@ -28,7 +31,8 @@ namespace CSharpPlayGround.Algorithm
             }
             return (element, count);
         }
-
+        // 1 2 3 5 6 7 8 
+        // 4
         public static  int GetSingleMissingNo(int[] a)
         {
             int total = (a.Length + 1) * (a.Length + 2) / 2;
@@ -39,6 +43,8 @@ namespace CSharpPlayGround.Algorithm
             return total;
         }
 
+        // 1 2 3 5 7 9 
+        // 4 6 8
         public static List<int> MissingNumbers (int[] a, int count)
         {
             var sequence = new List<int>(a);
@@ -46,7 +52,8 @@ namespace CSharpPlayGround.Algorithm
 
         }
 
-
+        //1 5 4 3 11 9 6 
+        // 11 9
         public static (int first, int second) FindTwoTop(int[] arr)
         {
             int top1 = 0, top2 = 1;
@@ -66,7 +73,8 @@ namespace CSharpPlayGround.Algorithm
         }
 
 
-        //1, 2, 3, 4 , 5, 0 , 6, 0
+        //1 0 2 0 3 4 0 
+        //1 2 3 4 0 0 0 
         public static int[] PushAllZeroToTheEnd(params int[] arr)
         {
             int count = 0;
