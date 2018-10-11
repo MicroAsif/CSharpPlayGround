@@ -88,6 +88,31 @@ namespace CSharpPlayGround.Algorithm
             }
             return newArray;
         }
+
+        // arr1 = 1, 2, 3, 4, 6
+        // arr2 = 3, 6, 7, 8
+
+
+        public static void FindCommon(int[] arr, int[] arr2)
+        {
+            Console.Write($"Common Value between two sorted array :  ");
+            int i = 0, j = 0; 
+
+            while(i < arr.Length && j < arr2.Length)
+            {
+                if (arr[i] == arr2[j])
+                {
+                    Console.Write($"{arr[i]} ");
+                    i++;
+                    j++;
+                }
+                else if (arr[i] < arr2[j])
+                    i++;
+                else
+                    j++;
+            }
+
+        }
       
     }
 }

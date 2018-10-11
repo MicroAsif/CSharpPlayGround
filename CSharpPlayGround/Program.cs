@@ -105,6 +105,10 @@ namespace CSharpPlayGround
             {
                 Console.WriteLine(data[i]);
             }
+
+            int[] firstArray = { 1, 2, 3, 4, 6 };
+            int[] secondArray = { 3,6, 7, 8};
+            ArrayProblem.FindCommon(firstArray, secondArray);
             Console.Read();
 
 
